@@ -1,0 +1,120 @@
+body{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(Impostor\ Alert\ in\ Retro\ Style.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+}
+
+.obj{
+  display: flex;
+  flex-direction: row;
+  transform: scale(1);
+  margin-top:7%;
+}
+.objBody{
+  position: relative;
+  width: 200px;
+  height: 260px;
+  border-top-left-radius: 150px;
+  border-top-right-radius: 150px;
+  border: solid 6px black;
+  border-bottom: none;
+  overflow: visible;
+  background: linear-gradient(to right, yellow ,rgb(175, 158, 0));
+  margin-bottom: 0%;
+}
+
+.eye{
+  position: absolute;
+  background-color: rgb(173, 173, 173);
+  height: 25%;
+  width: 80%;
+  border-radius: 50px;
+  border: 6px solid black;
+  margin-top: 30%;
+  left: -20px;
+  box-shadow: 1px 1px 10px rgb(54, 54, 54);
+}
+
+.layer1{
+  height: 90%;
+  width: 95%;
+  background-color: rgb(202, 202, 202);
+  border-radius: 50px;
+  padding-top: 10px;
+}
+
+.layer2{
+  height: 50%;
+  width: 40%;
+  background-color: rgb(236, 236, 236);
+  border-radius: 50px;
+  margin-left: 10%;
+  
+}
+
+
+.centerBody{
+  width: 28%;
+  height: 20%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 110%;
+  border-bottom: solid 6px black;
+  border-bottom-left-radius: 5px;
+} 
+
+.legs{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 0%;
+  
+}
+.objLeft{
+  background-color: rgb(255, 0, 0);
+  height: 70px;
+  width: 40%;
+  border: solid black 6px;
+  border-top:none ;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background: linear-gradient(to right, yellow ,rgb(216, 216, 0));
+
+}
+
+.objRight{
+  background-color: rgb(255, 0, 0);
+  height: 70px;
+  width: 40%;
+  border: solid black 6px;
+  border-top:none ;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background: linear-gradient(to right, rgb(196, 196, 0) ,rgb(175, 158, 0));
+
+
+}
+
+
+.bag{
+  width: 30px;
+  height: 140px;
+  background-color: rgba(175, 157, 0, 0.781);
+  border: solid 6px black;
+  border-bottom-right-radius: 30px;
+  border-top-right-radius: 30px;
+  border-left: none;
+  margin-top: 40%;
+}
+
+@media (max-width : 767.98px){
+    .obj{
+        transform: scale(0.5);
+    }
+}
